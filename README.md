@@ -25,7 +25,7 @@ The Sorbonne University IP Route Survey is conducted using free open-source libe
 
 Iris, Zeph, Diamond Miner, and Yaarp have been described in peer-reviewed publications. 
 
-## Obtaining IPRS data
+# Obtaining IPRS data
 
 The IPv4 snapshots are available through Measurement Lab in the same `scamper1` format in Google BigQuery tables that they use for their existing `traceroute`data.
 For more detailed IPv4 data, and for the IPv6 data, please write to us at Dioptra.
