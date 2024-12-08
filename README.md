@@ -13,13 +13,24 @@ As of December 2024, IPRS provides:
 * Four daily IPv4 snapshots featuring multipath route traces from ten vantage points, covering all routable IPv4 /24 prefixes
 * One daily IPv6 snapshot with single-path route traces covering a substantial number of prefixes 
 
-# Obtaining IPRS data
+# Data Access
 
-We make the survey data publicly available through the [Measurement Lab](https://www.measurementlab.net) website and through contact with us at the Dioptra group.
+IPRS data is available through two primary channels:
 
-The IPv4 snapshots are available in Google BigQuery tables from Measurement Lab, in the same `scamper1` format  that they use for their existing `traceroute` data.
-For more detailed IPv4 data, and for the IPv6 data, please write to us at Dioptra.
-We maintain this data in a ClickHouse database, in an Amazon S3-compatible database format.
+## Measurement Lab
+
+IPv4 snapshots are accessible via [Measurement Lab](https://www.measurementlab.net)'s Google BigQuery tables.
+This data is provided in the `scamper1` format, consistent with existing Measurement Lab `traceroute` data.
+
+## Dioptra
+
+Contact the Dioptra group directly for your additional data needs:
+
+* More detailed versions of the IPv4 data
+* The IPv6 data
+
+We can make this data available to you as ClickHouse tables, which are an Amazon S3-compatible format.
+Other formats are also possible.
 
 # Our plans and your feedback
 
