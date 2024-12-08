@@ -64,7 +64,7 @@ We offer implementation support for individuals and organizations interested in 
 
 # Related Initiatives
 
-The Sorbonne IP Route Survey is related to several other initiatives, each of which predates IPRS by many years.
+The Sorbonne IP Route Survey is related to several other initiatives, most of which predate IPRS by many years.
 These include IP-level data sets and BGP-level data sets.
 
 IPRS is most similar to the following IP-level route tracing initiative:
@@ -75,6 +75,7 @@ IPRS is also related to other IP-level route tracing initiatives:
 
 * Measurement Lab's [Traceroute](https://www.measurementlab.net/tests/traceroute/) data. This is also not an internet-scale routing survey. However, it, too, contains an immense number of route traces.
 * The [RIPE Atlas](https://atlas.ripe.net/) data. While RIPE Atlas is not an internet-scale routing survey, the dataset does contain an immense number of route traces from on the order of 10,000 vantage points. RIPE Atlas only conducts single-path route traces, whereas the IPRS and Measurement Lab Traceroute data sets provide multipath route traces.
+* Measurement Lab's [Reverse Traceeroute](https://www.measurementlab.net/tests/reverse_traceroute/) data. Similar to IPRS, and in contrast to the other initiatives listed here, this is relatively recent.
 
 Routes can also be seen at the BGP level. The advantage of BGP feeds for following routing changes in near-real-time is their short timescale. There are two main initiatives:
 
