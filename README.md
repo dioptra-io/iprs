@@ -1,70 +1,32 @@
 *NOTE: This repository is a work in progress and will be frequently updated.*
 
-# Iris
+# Sorbonne IPRS (IP Route Survey)
 
-This repository is the official home page of Iris.
+This repository is the official home page of Sorbonne IPRS, the Sorbonne University IP Route Survey.
+This survey is conducted by the [Dioptra](https://dioptra.io) research group at [Sorbonne University](https://sorbonne-universite.fr/en)'s [LIP6](https://www.lip6.fr/?LANG=en) computer science laboratory, and it is made publicly available through [Measurement Lab](https://www.measurementlab.net) and through the Dioptra group.
 
-Iris is an open-source platform for orchestrating a specific set
-of network route probing measurements from multiple Internet vantage
-points, collecting the resulting data, and making that data publicly
-available.
+IPRS is a series of snapshots of IP-level routing in the internet.
+Each snapshot consists of a set of `traceroute`-style measurements.
+These measurements are conducted from multiple vantage points around the internet.
+The route trace destinations comprise a significant portion of the internet's routable address blocks.
 
-Iris conducts IP-level multipath route traces from a distributed
-set of vantage points towards all routable IPv4 prefixes several
-times each day, and to IPv6 addresses once a day.
+As of December 2024, there are four IPRS IPv4 snapshots and one IPv6 per day.
+The IPv4 snapshots consist of multipath route traces from ten vantage points towards all routable IPv4 /24 prefixes.
+The IPv6 snapshots consist of single-path route traces towards a large number of prefixes and are available from Dioptra upon request.
 
-The IPv4 measurements use the [Zeph](https://github.com/dioptra-io/zeph)
-algorithm.
+# How the route survey is conducted
 
-We are in the process of publishing Iris data from Zeph measurements
-through [Measurement Lab](https://www.measurementlab.net).
+The Sorbonne University IP Route Survey is conducted using free open-source liberally-licensed software developed, unless otherwise noted, by the Dioptra group:
 
-## Iris measurements
+* The measurements are orchestrated by the [Iris](https://github.com/dioptra-io/zeph) measurement orchestration system.
+* The dynamic allocation of IPv4 destination prefixes to vantage points is determined by the [Zeph](https://github.com/dioptra-io/zeph) reinforcement learning algorithm. IPv6 destination prefix allocations are currently static.
+* At each vantage point, probe packets are sent and probe replies are received and logged by the [Caracal](https://github.com/dioptra-io/caracal) tool.
+* The determination of which probe packets should be sent, and in which order, is conducted using the [Diamond Miner](https://github.com/dioptra-io/diamond-miner) algorithm for IPv4 and the yarrp algorithm for IPv6. The latter was developed by Robert Beverly's research team at the Naval Postgraduate School, and the former by Dioptra, in collaboration with that team.
 
-Starting in April 2021, Iris has been performing single-path and
-multipath (load-balanced) route traces from a small number of vantage
-points to all IPv4 address prefixes.  The measurements include daily
-Zeph measurements (currently four measurements per day from ten
-vantage points).
+Iris, Zeph, Diamond Miner, and Yaarp have been described in peer-reviewed publications. 
 
-Zeph measurements are coordinated multipath traces using the Zeph
-algorithm from ten vantage points in Google Cloud Platform (GCP)
-to achieve high coverage of the discoverable IPv4 infrastructure
-addresses.  These measurements use ICMP probes at the rate of 100,000
-PPS towards 2 million prefixes and discover around 1.5 million IPv4
-infrastructure addresses and 8 million links between them.
+## Obtaining IPRS data
 
-The traceroute data collected by the above measurements is currently
-saved in an Amazon S3-compatible database (ClickHouse) on the Iris
-production server.
-
-## Iris data at M-Lab
-
-While Iris traceroute data is highly valuable for the research
-community, its utilization is hampered by two primary challenges:
-
-1. The data is stored in Iris-specific tables and schemas.
-2. There is no web interface for querying and analyzing the data.
-
-To address these limitations, the Iris team is collaborating with
-the M-Lab team to make Iris route trace data publicly accessible
-in the same format as M-Lab's traceroute (scamper1 table).  While
-Iris data will be stored in a table that has the same schema as
-M-Lab's `scamper1`, its name will be different (say, `zeph1`) so
-that M-Lab data and Iris data remain separate.  The benefits of
-using the same format are as follows:
-
-* Existing queries and analysis tools developed for `scamper1` will
-  also work with `zep1` with little or no modification (see below).
-* Iris route trace data will seamlessly enhance and complement
-  M-Lab's traceroute data.
-
-The changes involve correcting the column definitions by using
-INTEGER instead of FLOAT, where INTEGER should have been used from
-the outset in the scamper1 format. For instance, the `TTL` field
-is clearly an integer, not a floating-point number
-
-## Useful links
-
-* [Iris source code](https://github.com/dioptra-io/iris)
-* TO BE EXPANDED...
+The IPv4 snapshots are available through Measurement Lab in the same `scamper1` format in Google BigQuery tables that they use for their existing `traceroute`data.
+For more detailed IPv4 data, and for the IPv6 data, please write to us at Dioptra.
+We maintain this data in a ClickHouse database, in an Amazon S3-compatible database format.
