@@ -62,6 +62,25 @@ IPRS relies on free, liberally-licensed open-source software:
 Iris, Zeph, Diamond-Miner, and Caracal have been developed by the Dioptra research group.
 We offer implementation support for individuals and organizations interested in utilizing this technology stack.
 
+# Related Initiatives
+
+The Sorbonne IP Route Survey is related to several other initiatives, each of which predates IPRS by many years.
+These include IP-level data sets and BGP-level data sets.
+
+IPRS is most similar to the following IP-level route tracing initiative:
+
+* CAIDA's [Archipelago](https://www.caida.org/projects/ark/), or Ark, data. Ark also collects IP-level routes at internet scale. IPRS collects snapshots at a higher frequency than does Ark, and IPRS sees more IP addresses and `traceroute`-style links between those addresses. However, Ark collects snapshots from a larger number of vantage points, and different vantage points than does IPRS, thereby collecting route segments that IPRS does not currently obtain.
+
+IPRS is also related to other IP-level route tracing initiatives:
+
+* The [RIPE Atlas](https://atlas.ripe.net/) data. While RIPE Atlas is not an internet-scale routing survey, the dataset does contain an immense number of route traces from on the order of 10,000 vantage points.
+* Measurement Lab's [Traceroute](https://www.measurementlab.net/tests/traceroute/) data. This is also not an internet-scale routing survey. However, it, too, contains an immense number of route traces.
+
+Routes can also be seen at the BGP level. The advantage of BGP feeds for following routing changes in near-real-time is their short timescale. There are two main initiatives:
+
+* The [Oregon RouteViews Project](https://www.routeviews.org/routeviews/)
+* The [RIPE Routing Information Service](https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/) (RIS)
+
 # Acknowledgements
 
 Sorbonne IPRS is funded in part by a cybersecurity grant from the French Ministry of Armed Forces.
