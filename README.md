@@ -32,16 +32,23 @@ Contact the Dioptra group directly for your additional data needs:
 We can make this data available to you as ClickHouse tables, which are an Amazon S3-compatible format.
 Other formats are also possible.
 
-# Our plans and your feedback
+# Future Development
 
-We are working to improve both the frequency and the coverage of the IPRS data.
-One of our principal aims is to permit network operators and security analysts to better track attacks and anomalies.
-For this, we aim to achieve a time resolution of minutes rather than hours between snapshots.
-We also aim to cover, as best possible, routes through the internet that are subject to disruption.
+Our development roadmap focuses on two key areas.
 
-More generally, we seek to serve the various communities that make use of internet-wide routing data.
-These include content providers, network operators, telecom regulators, cybersecurity analysts, and internet measurement researchers, amongst others.
-We hope to hear from you about your route survey needs, so as to shape IPRS to better serve them. Please contact us!
+## Enhanced Monitoring Capabilities
+
+We are working to:
+
+* Increase snapshot frequency from hour-level to minute-level time resolution
+* Expand coverage of internet routes that are not well covered by current publicly-available data
+* Improve observers' ability to detect and track network attacks and anomalies
+
+## Community-Driven Improvements
+
+Our mission is to serve a diverse set of stakeholders, including content providers, network operators, telecom regulators, cybersecurity analysts, and internet measurement researchers.
+
+We welcome your feedback to better align IPRS capabilities with community needs.
 
 # How the survey is obtained
 
