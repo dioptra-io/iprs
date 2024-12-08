@@ -57,7 +57,7 @@ IPRS relies on open-source software developed by the Dioptra group and others:
 * The measurements are orchestrated by the [Iris](https://github.com/dioptra-io/zeph) measurement orchestration system.
 * The dynamic allocation of IPv4 destination prefixes to vantage points is determined by the [Zeph](https://github.com/dioptra-io/zeph) reinforcement learning algorithm. IPv6 destination prefix allocations are currently static.
 * At each vantage point, probe packets are sent and probe replies are received and logged by the [Caracal](https://github.com/dioptra-io/caracal) high-speed probing tool that we currently throttle to 100,000 packets per second.
-* The determination of which probe packets should be sent, and in which order, is conducted using the [Diamond Miner](https://github.com/dioptra-io/diamond-miner) algorithm for IPv4 and the yarrp algorithm for IPv6. The latter was developed by Robert Beverly's research team at the Naval Postgraduate School, and the former by Dioptra, in collaboration with that team.
+* The determination of which probe packets should be sent, and in which order, is conducted using the [Diamond Miner](https://github.com/dioptra-io/diamond-miner) algorithm for IPv4 and the [yarrp](https://github.com/cmand/yarrp) algorithm for IPv6. The latter was developed by Robert Beverly's research team at the Naval Postgraduate School, and the former by Dioptra, in collaboration with that team.
 
 Iris, Zeph, Diamond Miner, and Yaarp have been described in peer-reviewed publications. 
 If you wish to use any of this code in your own measurement work, we will be happy to help you do so. Please contact us!
