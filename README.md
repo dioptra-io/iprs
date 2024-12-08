@@ -1,17 +1,17 @@
-*NOTE: This repository is a work in progress and will be frequently updated.*
+This is the official home page of the Sorbonne IP Route Survey (IPRS).
 
-# Sorbonne IPRS (IP Route Survey)
+# Overview
 
-This repository is the official home page of Sorbonne IPRS, the IP Route Survey conducted by the [Dioptra](https://dioptra.io) research group at [Sorbonne University](https://sorbonne-universite.fr/en)'s [LIP6](https://www.lip6.fr/?LANG=en) computer science laboratory.
+Sorbonne IPRS is an initiative to continuously monitor IP-level routing across the internet.
+This is done through the regular collection `traceroute`-style measurements from multiple vantage points twoards a significant portion of the internet's routable address blocks.
+The survey is conducted by the [Dioptra](https://dioptra.io) research group at [Sorbonne University](https://sorbonne-universite.fr/en)'s [LIP6](https://www.lip6.fr/?LANG=en) computer science laboratory.
 
-IPRS is a series of snapshots of IP-level routing in the internet.
-Each snapshot consists of a set of `traceroute`-style measurements.
-These measurements are conducted from multiple vantage points around the internet.
-The route trace destinations comprise a significant portion of the internet's routable address blocks.
+# Current Coverage
 
-As of December 2024, there are four IPRS IPv4 snapshots and one IPv6 per day.
-The IPv4 snapshots consist of multipath route traces from ten vantage points towards all routable IPv4 /24 prefixes.
-The IPv6 snapshots consist of single-path route traces towards a large number of prefixes and are available from Dioptra upon request.
+As of December 2024, IPRS provides:
+
+* Four daily IPv4 snapshots featuring multipath route traces from ten vantage points, covering all routable IPv4 /24 prefixes
+* One daily IPv6 snapshot with single-path route traces covering a substantial number of prefixes 
 
 # Obtaining IPRS data
 
