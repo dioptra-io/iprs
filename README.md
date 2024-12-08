@@ -13,7 +13,7 @@ As of December 2024, IPRS provides:
 * Four daily IPv4 snapshots featuring multipath route traces from ten vantage points, covering all routable IPv4 /24 prefixes
 * One daily IPv6 snapshot with single-path route traces covering a substantial number of prefixes 
 
-# Data Access
+# Data Access and Citation
 
 IPRS data is available through two primary channels:
 
@@ -31,6 +31,10 @@ Contact the Dioptra group directly for your additional data needs:
 
 We can make this data available to you as ClickHouse tables, which are an Amazon S3-compatible format.
 Other formats are also possible.
+
+## Citation
+
+Please cite this data as M-Lab's Sorbonne IPRS Data Set, <date range used>, or, if directly obtained from Dioptra, as The Sorbonne IPRS Data Set, <date range used>.
 
 # Future Development
 
