@@ -50,9 +50,9 @@ Our mission is to serve a diverse set of stakeholders, including content provide
 
 We welcome your feedback to better align IPRS capabilities with community needs.
 
-# How the survey is obtained
+# Technical Implementation
 
-The Sorbonne University IP Route Survey is conducted using free open-source liberally-licensed software developed, unless otherwise noted, by the Dioptra group:
+IPRS relies on open-source software developed by the Dioptra group and others:
 
 * The measurements are orchestrated by the [Iris](https://github.com/dioptra-io/zeph) measurement orchestration system.
 * The dynamic allocation of IPv4 destination prefixes to vantage points is determined by the [Zeph](https://github.com/dioptra-io/zeph) reinforcement learning algorithm. IPv6 destination prefix allocations are currently static.
