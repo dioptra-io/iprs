@@ -73,8 +73,8 @@ IPRS is most similar to the following IP-level route tracing initiative:
 
 IPRS is also related to other IP-level route tracing initiatives:
 
-* The [RIPE Atlas](https://atlas.ripe.net/) data. While RIPE Atlas is not an internet-scale routing survey, the dataset does contain an immense number of route traces from on the order of 10,000 vantage points.
 * Measurement Lab's [Traceroute](https://www.measurementlab.net/tests/traceroute/) data. This is also not an internet-scale routing survey. However, it, too, contains an immense number of route traces.
+* The [RIPE Atlas](https://atlas.ripe.net/) data. While RIPE Atlas is not an internet-scale routing survey, the dataset does contain an immense number of route traces from on the order of 10,000 vantage points. RIPE Atlas only conducts single-path route traces, whereas the IPRS and Measurement Lab Traceroute data sets provide multipath route traces.
 
 Routes can also be seen at the BGP level. The advantage of BGP feeds for following routing changes in near-real-time is their short timescale. There are two main initiatives:
 
