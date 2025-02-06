@@ -1,0 +1,36 @@
+# Configurations
+title:            Sorbonne IP Route Survey (IPRS)
+longtitle:        Sorbonne IP Route Survey (IPRS)
+author:           Dioptra Team
+email:            admins@dioptra.io
+description: >
+  Sorbonne IPRS is an initiative to continuously monitor IP-level routing across the internet.
+
+version: 1.0
+gitbook_version: 3.2.3
+
+url: 'https://dioptra-io.github.io/iprs'
+baseurl: ''
+remote_theme: https://github.com/just-the-docs/just-the-docs
+
+search_enabled: false
+
+# Aux links for the upper right navigation
+#aux_links:
+#  "Dioptra":
+#    - "//dioptra.io"
+#  "Iris":
+#    - "//iris.dioptra.io"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+nav_enabled: true
+
+heading_anchors: true
+
+footer_content: "Copyright &copy; 2025 Sorbonne Université. Distributed under the <a href=\"https://github.com/sorbonne-iprs/sorbonne-iprs.github.io/tree/main/LICENSE\">MIT license.</a>"
+
+logo: "/assets/images/iprs.png"
+favicon_ico: "/assets/images/favicon.ico"
+

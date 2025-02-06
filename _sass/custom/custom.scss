@@ -1,0 +1,13 @@
+.main-content h1:first-of-type, .main-content h2:first-of-type, p:first-of-type {
+  margin-top:0;
+}
+
+@media (min-width: 50rem) {
+  .side-bar + .main .main-header {
+    position: sticky;
+    top:0;
+    z-index:1;
+
+    background-color: white;
+  }
+}
