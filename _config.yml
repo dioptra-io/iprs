@@ -10,7 +10,7 @@ version: 1.0
 gitbook_version: 3.2.3
 
 url: 'https://dioptra-io.github.io/iprs'
-baseurl: ''
+baseurl: '/iprs'
 remote_theme: https://github.com/just-the-docs/just-the-docs
 
 search_enabled: false
