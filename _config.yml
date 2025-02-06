@@ -29,7 +29,7 @@ nav_enabled: true
 
 heading_anchors: true
 
-footer_content: "Copyright &copy; 2025 Sorbonne Université. Distributed under the <a href=\"https://github.com/sorbonne-iprs/sorbonne-iprs.github.io/tree/main/LICENSE\">MIT license.</a>"
+footer_content: "Copyright &copy; 2025 Sorbonne Université. Distributed under the <a href=\"https://github.com/dioptra-io/iprs/blob/main/LICENSE\">MIT license.</a>"
 
 logo: "/assets/images/iprs.png"
 favicon_ico: "/assets/images/favicon.ico"
