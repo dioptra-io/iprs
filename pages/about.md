@@ -4,6 +4,10 @@ layout: home
 nav_order: 4
 ---
 
+## Contact
+
+Contact the IPRS team at [iprs@dioptra.io](mailto:iprs@dioptra.io).
+
 ## Acknowledgements
 
 Sorbonne IPRS is funded in part by a cybersecurity grant from the French Ministry of Armed Forces.
