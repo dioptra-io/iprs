@@ -2,7 +2,7 @@ This is the repository for the IP Route Survey (IPRS) [website](https://iprs.dio
 
 As it is a GitHub Pages website, the source code is to be found in this branch, the `gh-pages` branch. Pull requests welcome!
 
-For development purposes on your own machine, you can build an image and run the container using Docker:
+For development purposes, on your own machine you can build an image and run the container using Docker:
 
 ```bash
 # Build the image
