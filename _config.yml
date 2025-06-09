@@ -14,7 +14,7 @@ title: IP Route Survey (IPRS)
 email: iprs@dioptra.io
 description: >- # this means to ignore newlines until "baseurl:"
   IPRS is an initiative to continuously monitor IP-level routing across the internet. This is done through the regular collection of `traceroute`-style measurements from multiple vantage points towards a significant portion of the internet’s routable address blocks.
-baseurl: "/iprs" # for GitHub Pages; override in _config_local.yml
+baseurl: "" 
 logo: "/assets/images/dioptra-data-logomark.svg"
 github_username: dioptra-io
 minimal_mistakes_skin: "air"
