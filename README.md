@@ -1,3 +1,5 @@
+## Set up GitHub actions
+
 ## Building a Docker image and running the container locally
 
 From the root directory of the project:
