@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+repository: dioptra-io/iprs
+title: IP Route Survey (IPRS)
+email: iprs@dioptra.io
+description: >- # this means to ignore newlines until "baseurl:"
+  IPRS is an initiative to continuously monitor IP-level routing across the internet. This is done through the regular collection of `traceroute`-style measurements from multiple vantage points towards a significant portion of the internet’s routable address blocks.
+baseurl: "/iprs" # for GitHub Pages; override in _config_local.yml
+logo: "/assets/images/dioptra-data-logomark.svg"
+github_username: dioptra-io
+minimal_mistakes_skin: "air"
+search: false
+atom_feed:
+  hide: true
+copyright: "Sorbonne Université"
+copyright_url: "https://www.sorbonne-universite.fr/en"
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dioptra-io/iprs"
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: truex

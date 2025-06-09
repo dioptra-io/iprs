@@ -1,0 +1,12 @@
+# Sample authors.yml with all possible fields
+
+dioptra:
+    name: Dioptra
+    bio: Dioptra is an Internet cartography research group within the Networks and Performance Analysis (NPA) team at the LIP6 computer science laboratory in Paris, France. We are located on the campus of the Faculty of Science of Sorbonne University, which jointly runs LIP6 with the French National Centre for Scientific Research (CNRS). We are also associated with the LINCS laboratory.
+    email: contact@dioptra.io
+    url: https://dioptra.io
+    github: dioptra-io
+    links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dioptra.io"
