@@ -2,6 +2,10 @@
 
 From the root directory of the project:
 
+### Do `bundle install`
+
+`bundle install`
+
 ### Build the Docker image
 
 `docker build --platform=linux/x86_64 -t iprs-website .`

@@ -3,7 +3,7 @@ FROM jekyll/builder:latest
 WORKDIR /srv/jekyll
 
 # Optimize gem caching
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 RUN bundle install
 
 COPY . .
