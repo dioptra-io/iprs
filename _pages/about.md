@@ -10,7 +10,7 @@ IPRS is an initiative to continuously monitor IP-level routing across the intern
 
 IPRS is built using free, open-source, liberally-licensed code that was created over the course of two completed doctoral dissertations. Kevin Vermeulen was the lead author of [Diamond-Miner](https://github.com/dioptra-io/diamond-miner). Matthieu Gouel was the lead author of [Zeph](https://github.com/dioptra-io/zeph) and [Iris](https://github.com/dioptra-io/iris). Former post-doctoral fellow Maxime Mouchet was the lead author of [Caracal](https://github.com/dioptra-io/caracal), in addition to having contributed significantly to Zeph and Iris.
 
-This code has been put into production by research engineers Saied Kazemi and Elena Nardi.
+This code has been put into production by senior research engineers Saied Kazemi and Elena Nardi.
 
 Olivier Fourmaux and Timur Friedman head the Dioptra group.
 
