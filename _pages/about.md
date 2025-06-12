@@ -17,7 +17,7 @@ Former post-doctoral fellow Maxime Mouchet was the lead author of [Caracal](http
 Senior research engineers Saied Kazemi and Elena Nardi have stabilized the code in production, and they maintain it and publish the data through M-Lab.
 Contractor Ciro Scognamiglio manages sysops.
 Current doctoral student Ufuk Bombar is working on the next generation of IPRS.
-Summer intern Zeynep Arslan is addressing IPRS tech debt.
+Master's intern Zeynep Arslan is addressing IPRS tech debt.
 
 Sorbonne Université faculty members Olivier Fourmaux and Timur Friedman head the Dioptra group.
 
