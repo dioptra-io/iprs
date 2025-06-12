@@ -16,10 +16,11 @@ Former post-doctoral fellow Maxime Mouchet was the lead author of [Caracal](http
 
 Senior research engineers Saied Kazemi and Elena Nardi have stabilized the code in production, and they maintain it and publish the data through M-Lab.
 Contractor Ciro Scognamiglio manages sysops.
+Current doctoral student Hugo Rimlinger is using IPRS data to study BGP hijacks.
 Current doctoral student Ufuk Bombar is conceiving the next generation of IPRS.
 Master's intern Zeynep Arslan is addressing IPRS tech debt.
 
-Sorbonne Université faculty members Olivier Fourmaux and Timur Friedman head the Dioptra group.
+Sorbonne Université faculty members Olivier Fourmaux and Timur Friedman head the Dioptra group. CNRS researcher Kevin Vermeulen co-advises Dioptra group doctoral work.
 
 ## Measurement Lab (M-Lab)
 
