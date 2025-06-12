@@ -21,9 +21,9 @@ Olivier Fourmaux and Timur Friedman head the Dioptra group.
 
 Founded in 2009, [M-Lab](https://www.measurementlab.net/) is an open platform for studying internet performance and neutrality over time.
 M-Lab provides public, transparent data to empower researchers, policymakers, and open internet advocates to make informed decisions about internet infrastructure and policies. 
-M-Lab is a fiscally sponsored project of the Code for Science & Society.
+M-Lab is a fiscally sponsored project of Code for Science & Society (CS&S).
 
-## Acknowledgements
+## Support
 
  IPRS receives funding through a cybersecurity grant from the French Ministry of Armed Forces. 
  It receives Google Cloud credits and data hosting through its partnership with M-Lab.
