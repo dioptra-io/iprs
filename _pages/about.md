@@ -26,4 +26,4 @@ M-Lab is a fiscally sponsored project of the Code for Science & Society.
 ## Acknowledgements
 
  IPRS receives funding through a cybersecurity grant from the French Ministry of Armed Forces. 
- It receives Google cloud credits and data hosting through its partnership with M-Lab.
+ It receives Google Cloud credits and data hosting through its partnership with M-Lab.
