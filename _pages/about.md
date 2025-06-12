@@ -14,7 +14,8 @@ Kevin Vermeulen was the lead author of [Diamond-Miner](https://github.com/dioptr
 Matthieu Gouel was the lead author of [Zeph](https://github.com/dioptra-io/zeph) and [Iris](https://github.com/dioptra-io/iris). 
 Former post-doctoral fellow Maxime Mouchet was the lead author of [Caracal](https://github.com/dioptra-io/caracal) and a main contributor to the other code.
 
-This code has been stabilized in production, maintained, and published through M-Lab by senior research engineers Saied Kazemi and Elena Nardi.
+This code has been stabilized in production, and is maintained and published through M-Lab by senior research engineers Saied Kazemi and Elena Nardi.
+Ciro Scognamiglio manages sysops.
 
 Olivier Fourmaux and Timur Friedman head the Dioptra group.
 
