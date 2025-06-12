@@ -48,7 +48,34 @@ excerpt:
   <span style="font-size: 0.95rem; color: #333;">One daily IPv6 snapshot with single-path route traces from the ten vantage points towards the /48 prefixes in the <a href="https://ipv6hitlist.github.io/" target="_blank" rel="noopener">IPv6 hitlist</a></span>
 </div>
 
-<div id="accessing-data" style="width: 100%; margin: 2rem 0; text-align: left; font-size: 0.95rem; color: #222; display: flex; justify-content: center;">
+<style>
+#accessing-data {
+  width: 100%;
+  margin: 2rem 0;
+  text-align: left;
+  font-size: 0.95rem;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+@media (max-width: 700px) {
+  #accessing-data {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 1rem !important;
+    text-align: left !important;
+  }
+  #accessing-data img {
+    margin-bottom: 0.5rem;
+    margin-right: 0 !important;
+  }
+}
+</style>
+
+<div id="accessing-data">
+  <img src="{{ '/assets/images/mlab.webp' | relative_url }}" alt="M-Lab Logo" style="width: 80px; height: auto; flex-shrink: 0;">
   <div style="max-width: none; width: auto; min-width: 0;">
     <p style="margin: 0;">
       The <a href="https://www.dioptra.io/" target="_blank" rel="noopener">Dioptra</a> group at <a href="https://www.sorbonne-universite.fr/en" target="_blank" rel="noopener">Sorbonne Université</a> conducts the IPRS measurements through a collaboration with <a href="https://www.measurementlab.net/" target="_blank" rel="noopener">M-Lab</a>.
