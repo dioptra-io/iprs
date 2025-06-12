@@ -14,10 +14,12 @@ Kevin Vermeulen was the lead author of [Diamond-Miner](https://github.com/dioptr
 Matthieu Gouel was the lead author of [Zeph](https://github.com/dioptra-io/zeph) and [Iris](https://github.com/dioptra-io/iris). 
 Former post-doctoral fellow Maxime Mouchet was the lead author of [Caracal](https://github.com/dioptra-io/caracal) and a main contributor to the other code.
 
-This code has been stabilized in production, and is maintained and published through M-Lab by senior research engineers Saied Kazemi and Elena Nardi.
-Ciro Scognamiglio manages sysops.
+Senior research engineers Saied Kazemi and Elena Nardi have stabilized the code in production, and they maintain it and publish the data through M-Lab.
+Contractor Ciro Scognamiglio manages sysops.
+Current doctoral student Ufuk Bombar is working on the next generation of IPRS.
+Summer intern Zeynep Arslan is addressing IPRS tech debt.
 
-Olivier Fourmaux and Timur Friedman head the Dioptra group.
+Sorbonne Université faculty members Olivier Fourmaux and Timur Friedman head the Dioptra group.
 
 ## Measurement Lab (M-Lab)
 
