@@ -133,7 +133,7 @@ a.iprs-hover-link:focus {
       For unpublished snapshots (as indicated in the  <a class="iprs-hover-link" href="https://console.cloud.google.com/bigquery?project=mlab-collaboration&p=mlab-collaboration&d=sorbonne&t=iprs_index1&page=table" target="_blank" rel="noopener"><code>iprs_index1</code></a> table) or to request data in alternative formats, please  <a class="iprs-hover-link" href="mailto:iprs@dioptra.io">email</a> the IPRS team.      
     </p>
     <p style="margin: 1em 0 0 0;">
-      All IPRS data is released under the <a class="iprs-hover-link" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a> public domain dedication, making it freely available for any use.
+      IPRS data is made freely available to the public domain under the <a class="iprs-hover-link" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a> deed.
     </p>
   </div>
 </div>
