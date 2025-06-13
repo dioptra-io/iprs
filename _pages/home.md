@@ -124,8 +124,8 @@ a.iprs-hover-link:focus {
   <img src="{{ '/assets/images/mlab-logo-black.png' | relative_url }}" alt="M-Lab Logo" style="width: 100px; height: auto; flex-shrink: 0;">
   <div style="max-width: none; width: auto; min-width: 0;">
     <p style="margin: 0;">
-      The <a class="iprs-hover-link" href="https://dioptra.io/" target="_blank" rel="noopener">Dioptra</a> group at Sorbonne Université conducts the IPRS measurements in collaboration with M-Lab.
-      You can explore and analyze the IPRS data through the <a class="iprs-hover-link" href="https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1smlab-collaboration!2ssorbonne" target="_blank" rel="noopener"><code>mlab-collaboration.sorbonne</code></a> BigQuery dataset.
+      The <a class="iprs-hover-link" href="https://dioptra.io/" target="_blank" rel="noopener">Dioptra</a> group at Sorbonne Université conducts IPRS measurements in collaboration with M-Lab.
+      You can explore and analyze IPRS data through the <a class="iprs-hover-link" href="https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1smlab-collaboration!2ssorbonne" target="_blank" rel="noopener"><code>mlab-collaboration.sorbonne</code></a> BigQuery dataset.
       To request access, please <a class="iprs-hover-link" href="mailto:support@measurementlab.net">email</a> the M-Lab team.
     </p>
     <p style="margin: 1em 0 0 0;">
@@ -133,7 +133,8 @@ a.iprs-hover-link:focus {
       For unpublished snapshots (as indicated in the  <a class="iprs-hover-link" href="https://console.cloud.google.com/bigquery?project=mlab-collaboration&p=mlab-collaboration&d=sorbonne&t=iprs_index1&page=table" target="_blank" rel="noopener"><code>iprs_index1</code></a> table) or to request data in alternative formats, please  <a class="iprs-hover-link" href="mailto:iprs@dioptra.io">email</a> the IPRS team.      
     </p>
     <p style="margin: 1em 0 0 0;">
-      IPRS data is made freely available to the public domain under the <a class="iprs-hover-link" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a> deed.
+      IPRS data is freely released to the public domain under the <a class="iprs-hover-link" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a> deed.
+      Kindly credit Sorbonne Université and M-Lab if you use the data.
     </p>
   </div>
 </div>
