@@ -19,6 +19,36 @@ excerpt:
 ---
 
 <style>
+/* More specific selectors to override minimal-mistakes */
+
+/* Remove the non-breaking spaces that minimal-mistakes adds to code elements */
+.page__content :not(pre)>code::before,
+.page__content :not(pre)>code::after {
+  content: "" !important;
+}
+
+/* Remove background from code elements */
+code {
+  background: none !important;
+  font-size: 0.9em !important; /* slightly smaller than the surrounding text */
+}
+
+/* Custom link styling */
+a.iprs-hover-link {
+  text-decoration: none !important;
+  color: rgb(43, 98, 134);
+  background: none !important;
+  border-radius: 3px;
+  transition: color 0.2s, text-decoration 0.2s;
+  padding: 0;
+}
+
+a.iprs-hover-link:hover,
+a.iprs-hover-link:focus {
+  text-decoration: underline !important;
+}
+
+
 #ipv4-ipv6-summary {
   display: flex;
   align-items: center;
@@ -73,26 +103,6 @@ excerpt:
     margin-right: 0 !important;
   }
 }
-code {
-  background: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  font-size: 1em;
-  line-height: inherit;
-  border: none;
-}
-a.iprs-hover-link {
-  text-decoration: none !important;
-  color: rgb(43, 98, 134);
-  background: none !important;
-  border-radius: 3px;
-  transition: color 0.2s, text-decoration 0.2s;
-  padding: 0;
-}
-a.iprs-hover-link:hover,
-a.iprs-hover-link:focus {
-  text-decoration: underline !important;
-}
 </style>
 
 <div id="ipv4-ipv6-summary">
@@ -114,7 +124,7 @@ a.iprs-hover-link:focus {
   <img src="{{ '/assets/images/mlab-logo-black.png' | relative_url }}" alt="M-Lab Logo" style="width: 100px; height: auto; flex-shrink: 0;">
   <div style="max-width: none; width: auto; min-width: 0;">
     <p style="margin: 0;">
-      The <a class="iprs-hover-link" href="https://www.dioptra.io/" target="_blank" rel="noopener">Dioptra</a> group at Sorbonne Université conducts the IPRS measurements in collaboration with M-Lab.
+      The <a class="iprs-hover-link" href="https://dioptra.io/" target="_blank" rel="noopener">Dioptra</a> group at Sorbonne Université conducts the IPRS measurements in collaboration with M-Lab.
       You can explore and analyze the IPRS data through the <a class="iprs-hover-link" href="https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1smlab-collaboration!2ssorbonne" target="_blank" rel="noopener"><code>mlab-collaboration.sorbonne</code></a> BigQuery dataset.
       To request access, please <a class="iprs-hover-link" href="mailto:support@measurementlab.net">email</a> the M-Lab team.
     </p>
