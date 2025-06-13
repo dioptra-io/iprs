@@ -43,9 +43,9 @@ plugins:
 
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dioptra-io/iprs"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/dioptra-io/iprs"
 
 defaults:
   - scope:

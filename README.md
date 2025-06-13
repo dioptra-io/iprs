@@ -17,7 +17,7 @@ docker run --rm \
   -v "$PWD":/srv/jekyll \
   -p 4000:4000 \
   iprs-website \
-  jekyll serve --watch --host 0.0.0.0 --config _config.yml,_config_local.yml
+  jekyll serve --watch --host 0.0.0.0 --config _config.yml
 ```
 
 * `--rm` means that the container will be automatically removed after it stops.
